@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+
+  .app {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #e0e0e0;
+  }
+
+  .mint-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background: #38bdf8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .mint-btn:hover {
+    background: #0ea5e9;
+  }
+
+  .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .nft-card {
+    background: #2a2a2a;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+  }
+
+  .nft-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .nft-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+
+  .nft-name {
+    margin: 0.5rem 0;
+    font-weight: 600;
+  }
+
+  .download-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background: #f472b6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .download-btn:hover {
+    background: #e11d48;
+  }

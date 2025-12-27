@@ -1,0 +1,37 @@
+{
+    "name": "nft-mint-simulator",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.3.0",
+      "react-dom": "^18.3.0",
+      "@injectivelabs/exceptions": "1.16.22",
+      "@injectivelabs/networks": "1.16.22",
+      "@injectivelabs/sdk-ts": "1.16.22",
+      "@injectivelabs/ts-types": "1.16.22",
+      "@injectivelabs/utils": "1.16.22",
+      "@injectivelabs/wallet-base": "1.16.22",
+      "@injectivelabs/wallet-core": "1.16.22",
+      "@injectivelabs/wallet-cosmos": "1.16.22",
+      "@injectivelabs/wallet-cosmos-strategy": "1.16.22",
+      "@injectivelabs/wallet-cosmostation": "1.16.22",
+      "@injectivelabs/wallet-evm": "1.16.22",
+      "@injectivelabs/wallet-ledger": "1.16.22",
+      "@injectivelabs/wallet-magic": "1.16.22",
+      "@injectivelabs/wallet-private-key": "1.16.22",
+      "@injectivelabs/wallet-strategy": "1.16.22",
+      "@injectivelabs/wallet-trezor": "1.16.22",
+      "@injectivelabs/wallet-turnkey": "1.16.22",
+      "@injectivelabs/wallet-wallet-connect": "1.16.22"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.2.1",
+      "@bangjelkoski/vite-plugin-node-polyfills": "^0.0.2",
+      "vite": "^5.3.0"
+    }
+  }
